@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+        }
+        ul,h2,dl,dd{
+            margin: 0;
+            padding: 0;
+        }
+        li{
+            list-style: none;
+        }
+        a{
+            text-decoration: none;
+           
+        }
+
+        p{
+            margin: 0;
+        }
+        em{
+            font-style: normal;
+            font-weight: normal;
+            font-size: 12px;
+        
+        }
+    header{
+        width: 100%;
+        height: 500px;
+        background: url('image/bgd.png');
+        position: relative;
+    }
+    .img{
+     position: absolute;
+     top: 37px;
+     left: 273px;
+    }
+    nav{
+        width: 646px;
+        height: 32px;
+        float: left;
+        position: absolute;
+        left:781px;
+        top:37px;
+
+        
+    }
+    .list {
+        width:627px;
+        height: 32px;  
+        float: left;
+        margin-left: 9px;
+
+    }
+   .list li{
+       float: left;
+        margin-right: 30px;
+   }
+    .list li a{
+        font-size: 12px;
+        line-height: 32px;
+        text-align: center;
+        color: #fff;
+    }
+    
+    .img1{
+       
+        position: absolute;
+        top: 37px;
+        right: 417px;
+    }
+    .span{
+        float: right;
+        margin: 46px 440px 0 0;
+        color: #0597d3;
+        text-align: center;
+        font-size:12px;  
+    }
+   
+    .div_p{
+        width: 780px;
+        height: 266px;
+        position: absolute;
+        top: 176px;
+        right: 576px;
+        
+    }
+    .div_p h2{
+           color: #fff;
+           text-align: center;
+           margin-top: 22px;
+          
+    }
+    .div_p .p{
+        color: #427c57;
+        margin: 17px  0  22px  0;
+         font-size: 12px;
+        text-align: center;
+    }
+    .div_p p{
+        color: #fff;
+        text-align: center;
+    }
+    .div_p img{
+        position: absolute;
+        bottom: 38px;
+        right: 310px;
+    }
+    .span1{
+          position: absolute;
+           color:blue;
+          bottom: 53px;
+          right: 347px;
+          font-size: 12px;
+          opacity: 0.5;
+    }
+    .list li a:hover{
+        background: pink;
+        color:red;
+        border-radius: 10px;
+       
+    }.list li img{
+        margin-top: 14px;
+    }
+    section{
+          width: 100%;
+
+    }
+    section .left{
+           width: 475px; 
+           position: relative; 
+              
+    }
+    section .left ul{
+            width:94px ;
+            height: 407px;
+            position: absolute;
+            top:15px;
+            right: 17px;
+
+    }
+    section .left ul li{
+             width: 94px;
+             height: 37px;
+             background: #f6f9fa;
+             display: block;
+             margin-bottom: 5px;
+             border-radius: 5px;
+    }
+    section .left ul li a:hover{
+        background: white;
+        color: #fff;
+        
+    }
+    section .left ul li a{
+             color: #000;
+             line-height: 37px;
+             text-align: center;
+             display: block;
+             font-size: 12px;
+    }
+     section dl{
+         width: 92px;
+         height: 112px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        position: absolute;
+        top: 305px;
+        right: 17px;
+     }
+     section  dt{
+             width: 74px;
+             height: 74px;
+             margin: 7px 9px;
+     } 
+     
+     
+     section dd{
+         color: gray;
+         font-size: 12px;
+         text-align: center;
+         margin-bottom: 8px;
+     }
+.middle{
+    width: 738px;
+    position: absolute;
+    left: 473px;
+    margin-right: 20px;
+   
+}
+
+.middle .top{
+    width: 738px;
+    height:483px;
+    border: 1px solid #ccc;
+    margin-top: 15px;
+}
+ .img2{
+    margin-left: 42px;
+}
+.img3{
+     margin: 30px 0 0 322px;
+}
+.middle .warp{
+    width: 740px;
+    height: 225px;
+    margin-top: 20px;
+}
+.middle .warp ul{
+    float: left;
+}
+.middle .warp li{
+    width: 235px;
+    height: 105px;
+    border: 1px solid  #aaa;
+    position: relative;
+    margin: 0 14px 14px 0;
+    float: left;
+}
+.warp li h3{
+    margin: 25px 0 12px 0;
+      text-align: center;
+      font-size: 14px;
+}
+.warp li p{
+     color: #aaa;
+      text-align: center;
+      font-size: 12px;
+}
+.warp li span{
+    position: absolute;
+      color: #eee;
+      font-size: 12px;
+      width: 32px;
+      height: 20px;
+      background: gray;
+      top:0;
+      left: 0;
+      opacity: 0.3;
+}
+.middle .bottom{
+    width: 738px;
+    height: 236px;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.b_div{
+    width: 240px;
+    height: 66px;
+    margin: 8px auto;
+
+
+}
+.b_div .text{
+     line-height: 66px;
+     text-align: center;
+     display: inline-block;
+     font-weight: bold;
+     font-size: 18px;
+     
+}
+.b_div .line{
+    border-top: 1px solid #000;
+    width: 40px;
+    vertical-align: 5px;
+    display: inline-block;
+ 
+}
+.b_p1{
+    margin-bottom: 14px;
+    text-indent: 28px;
+}
+.b_p2,.b_p3{
+    text-indent: 56px;
+}
+.b_p4{
+    margin-top: 35px;
+    text-indent: 28px;
+}
+  .bottom p a{
+     color:#41c0f2;
+     text-decoration: underline;
+     
+}
+.bottom p{
+    font-size: 14px;
+    
+}
+.right{
+    width: 315px;
+    position: absolute;
+    left: 1229px;
+}
+.right .r_div{
+   width:302px ;
+   height:330px ;
+   margin-top: 15px;
+}
+.right .r_div1{
+     width: 282px;
+     height:330px ;
+     margin-left: 20px;
+}
+.r_div2{
+    width: 282px;
+    height: 64px;
+    border-bottom: 1px solid #eee;
+}
+.r_div2 p{
+    float: left;
+    line-height: 64px;
+    color: #666;
+
+}
+.r_div2 strong{
+    float: right;
+    font-size:24px; 
+    color: #666;
+    line-height: 64px;
+}
+.r_div3{
+   width: 282px;
+   height:266px ;
+   
+}
+.r_div3 ul{
+    width: 292px;
+     height: 176px;
+}
+.r_div3 ul li{
+    list-style-image: url('image/1.gif');
+    margin-left: 18px;
+       
+}
+.r_div3 ul li a{
+    color: #000;
+    line-height: 26px;
+}
+.r_div3 ul li span{
+    color: #64c2f2;
+    
+}
+.r_cont{
+    width: 290px;
+    height: 35px;
+    background:#33b7f1 ;
+    line-height: 35px;
+    text-align-last: center;
+    color: #fff;
+    margin-top:10px; 
+   
+}
+.r_cont1{
+    width: 124px;
+    height: 34px;
+    border:1px solid #ddd ;
+    float: left;
+    margin: 10px 30px 0 0;
+    position: relative;
+}
+.r_cont1 img{
+    position: absolute;
+    top:10px;
+    left: 16px;
+
+}
+.r_cont1 p{
+    text-align: center;
+    line-height: 34px;
+    color: #b6b6b6;
+}
+.r_cont2{
+    width: 126px;
+    height: 36px;
+    background: #f2f2f2;
+    float: left;
+    margin-top: 10px;
+    position: relative;
+}
+.r_cont2 img{
+    position: absolute;
+    top:10px;
+    left: 16px;
+}
+.r_cont2 p{
+    text-align: center;
+    line-height: 34px;
+    color: #b6b6b6;
+}
+.right .r_text{
+    width: 312px;
+    height: 188px;
+    background: #fcf8e3;
+    border: 1px solid #f5eab8;
+    margin-top: 42px;
+     overflow-y:scroll;
+     font-size: 12px;
+    line-height: 30px;
+    text-indent: 20px;
+}
+.r_cont4{
+    width: 312px;
+    height: 60px;
+    margin-top: 18px;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    position: relative;
+}
+.r_cont4 img{
+    position: absolute;
+    top:22px;
+    left:20px ;
+
+}
+.r_cont4 p{
+    position: absolute;
+    top:18px;
+    right: 80px;
+    color: #a2a2a2; 
+}
+.r_img{
+    width: 315px;
+    
+    margin-top: 20px;
+}
+footer dl{
+        width: 270px;
+        height: 226px;
+        float: left;
+        margin-right: 52px;
+        margin-top: 85px;
+        
+      
+    }
+    footer dt {
+        width: 90px;
+        height: 90px;
+    }
+    footer dt img{
+      margin: 10px 90px 0 90px;
+    }
+    footer dd  h1,footer dd p{
+          text-align: center;
+    }
+    footer dd h1{
+        margin-top: 26px;
+        margin-bottom: 15px;
+        font-size: 20px;
+        font-weight: normal;
+        
+    }
+    footer dd p{
+        font-size: 12px;
+        color: #bbbcbd;
+    }
+    
+     footer{
+         width: 100%;
+         height: 324px;
+         background:#f3f7f8;
+         margin-top: 1036px;
+     }   
+    
+    </style>
+</head>
+<body>
+    <header>
+      <img src="image/header-img.gif" alt="" class="img">
+      <nav>
+          <ul class="list">
+              <li><a href="">首页</a></li>
+              <li style="margin-right: 0"><a href="">WordPress主题</a></li>
+              <li style="margin-left:10px;"><img src="image/header-下箭头.gif" alt=""></li> 
+              <li style="margin-right: 0"><a href="">付费服务</a></li>
+              <li style="margin-left:10px;"><img src="image/header-下箭头.gif" alt=""></li>
+              <li><a href="">定制主题</a></li>
+              <li style="margin-right: 0"><a href="">主题动态</a></li>
+              <li style="margin-left:10px;"><img src="image/header-下箭头.gif" alt=""></li>
+              <li><a href="">教程</a></li>
+              <li><a href="">会员中心</a></li>
+          </ul>
+        </nav>
+      <img src="image/圆角矩形-登录.gif" alt="" class="img1">
+      <span class="span">登录</span>
+      <div class="div_p">
+      <h2>DUX主题</h2>
+      <p class="p">由themebetter团队原创开发</p>
+      <p>适用于垂直站点、科技博客、个人站，扁平化设计、简洁白色、超多功能配置、会员中心、直达链接、自动缩略图 DUX主题基于WordPress程序，响应式布局支持电脑、平板和手机的完美展示</p>
+      <img src="image/圆角矩形-header.gif" alt="">
+     <span  class="span1">查看主题演示站</span>
+    </div>
+    </header>
+   <section>
+       <div class="left">
+           <ul>
+                <li><a href="">主题亮点</a></li>
+                <li><a href="">使用说明</a></li>
+                <li><a href="">更新方法</a></li>
+                <li><a href="">授权须知</a></li>
+                <li><a href="">更新记录</a></li>
+                <li><a href="">查看演示</a></li>
+                <li><a href="">售前咨询</a></li>
+           </ul>
+            <dl>
+                <dt>
+                    <img src="image/section-aside-left.gif" alt="">
+                    <dd>手机扫码演示</dd>
+                </dt>
+            </dl>
+       </div>
+       <div class="right">
+           <div class="r_div">
+               <div class="r_div1">
+                   <div class="r_div2">
+                   <p>官方统一售价</p>
+                 <strong><em>￥</em>799</strong>
+                </div>
+                <div class="r_div3">
+                        <ul>
+                                <li><a href="">用户体验良好的DUX主题</a></li>
+                                <li><a href="">一次付费，终生免费升级主题更新</a></li>
+                                <li><a href="">快速时用帮安装WordPress程序和主题</a></li>
+                                <li><a href="">售后无忧，专业有效的工单售后服务</a></li>
+                                <li><a href="">新手无忧，协助解决各种主题相关问题</a></li>
+                                <li><a href="">建站无忧，全方位专业的可选<span>付费服务</span></a></li>
+                              
+                            </ul>
+                          <div class="r_cont">
+                              登陆并购买
+                          </div>
+                          <div class="r_cont1">
+                              <img src="image/section-aside-right企鹅.gif" alt="">
+                              <p>QQ咨询</p>
+                          </div>
+                          <div class="r_cont2">
+                                  <img src="image/section-aside-right人头.gif" alt="">
+                                  <p>工单咨询</p>
+                </div>
+                
+                    </div>
+               </div>
+           </div>
+           <div class="r_text">
+                themebetter.com是卫衣的DUX主题官方售点和官方服务平台，也是DUX主题唯一售点，请勿相信其他任何渠道的虚假销售。<br>虚假盗版主题存在巨大的安全隐患，会被植入木马等各种恶意代码，会发生私密信息被盗取、站点数据被清除、会员信息被盗、主体被窃取、收录极速下降等多种安全情况。
+           </div>
+           <div class="r_cont4">
+               <img src="image/section-aside-right多人头.gif" alt="">
+               <p>主题被505,848人次关注</p>
+           </div>
+           <img src="image/section-aside-right广告.png" alt="" class="r_img">
+       </div>
+       <div class="middle">
+           <div class="top">
+               <img src="image/section-middle-top.png" alt="" class="img2">
+               <img src="image/section-middle-计算机.gif" alt="" class="img3">
+               <img src="image/section-middle-手机.gif" alt="" class="img4">
+           </div>
+           <div class="warp">
+               <ul>
+                   <li>
+                       <h3>自动缩略图</h3>
+                       <p>自动获取文章第一张图作为缩略图，还可以自定义缩略图后缀</p>
+                       <span>亮点1</span>
+                   </li>
+                   <li>
+                        <h3>副标题</h3>
+                        <p>完全自定义的文章副标题，让文章展示更具风采</p>
+                        <span>亮点2</span>
+                    </li>
+                    <li style="margin-right: 0">
+                            <h3>支持HTTPS</h3>
+                            <p>主题完美支持HTTPS</p>
+                            <span>亮点3</span>
+                        </li>
+                        <li>
+                                <h3>直达链接</h3>
+                                <p>在列表页和文章页都有展示，你可以选择开启、是否新窗口</p>
+                                <span>亮点4</span>
+                            </li>
+                            <li>
+                                    <h3>列表无限加载</h3>
+                                    <p>可以设置无限加载页数和是否开启、列表更有单图展示和无图展示</p>
+                                    <span>亮点5</span>
+                                </li>
+                                <li style="margin-right: 0">
+                                        <h3>多平台广告</h3>
+                                        <p>区分手机端和非手机端，可以设置不同平台的</p>
+                                        <span>亮点6</span>
+                                    </li>
+               </ul>
+           </div>
+           <div class="bottom">
+               <div class="b_div">
+                   <span class="line"></span>
+                   <span class="text">DUX主题更新方法</span>
+                   <span class="line"></span>
+                </div>
+            
+                    <p class="b_p1">主题更新方法：</P>
+                     <p class="b_p2">·在会员中心 - <a href="">我的订单</a> 中下载主题，解压后得到dux文件夹；</P>
+                      <p class="b_p3"> ·使用<a href="">软件</a>上传dux文件夹到服务器的wp-content/themes目录下，替换所有文件即可。</p> 
+                      <p class="b_p4"> 注：使用此方法更新主题会保留网站之前的dux主题设置。</p>  
+                  
+           </div>
+       </div>
+   </section>
+   <footer>
+      
+        <dl style="margin-left: 350px;">
+                <dt>
+                    <img src="image/footer高端专业研发团队.gif" alt="">
+                    <dd>
+                       <h1>高端专业开发团队 </h1>
+                       <p>7年WordPress博客和企业建站开发经验，提供<br>最专业主题设计与开发</p>
+                    </dd>
+                </dt>
+            </dl>
+            <dl>
+                    <dt>
+                        <img src="image/footer独一无二视觉冲击.gif" alt="">
+                        <dd>
+                           <h1>独一无二视觉冲击  </h1>
+                           <p>增强用户体验提高品牌形象给人留下深刻的印<br>象，每款主题都有自己的灵魂 </p>
+                        </dd>
+                    </dt>
+                </dl>
+                <dl>
+                        <dt>
+                            <img src="image/footer完美兼容各种设备.gif" alt="">
+                            <dd>
+                               <h1>完美兼容各种设备  </h1>
+                               <p>每款主题都提供完善的响应式布局，优化PC、<br>zPad和各种手机端用户体验  </p>
+                            </dd>
+                        </dt>
+                    </dl>
+                    <dl>
+                            <dt>
+                                <img src="image/免费靠谱售后服务.gif" alt="">
+                                <dd>
+                                   <h1>完善靠谱售后服务  </h1>
+                                   <p>免费在线工单售后，解决你关于主题的各种疑<br>惑，你只需要用心做站</p>
+                                </dd>
+                            </dt>
+                        </dl>
+
+
+</footer>
+</body>
+</html>

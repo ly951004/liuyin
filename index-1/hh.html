@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    ul{
+        margin: 0;
+        padding: 0;
+    }
+    li{
+        list-style: none;
+        width: 100px;
+        height: 36px;
+        background: pink;
+        border-radius: 5px;
+        margin-bottom: 5px;
+    }
+    a{
+        color: #000;
+        text-align: center;
+        text-decoration: none;
+        line-height: 36px;
+        display: block;  
+    }
+    
+    </style>
+</head>
+<body>
+        <ul>
+                <li><a href="">主题亮点</a></li>
+                <li><a href="">使用说明</a></li>
+                <li><a href="">更新方法</a></li>
+                <li><a href="">授权须知</a></li>
+                <li><a href="">更新记录</a></li>
+                <li><a href="">查看演示</a></li>
+                <li><a href="">售前咨询</a></li>
+           </ul>
+           <script>
+           var ali=document.getElementsByTagName('li');
+           var num=0;
+       
+           for(var i=0;i<ali.length;i++){
+              ali[i].onmouseover=function(){
+                  this.style.display='none';
+              }  
+              ali[i].onmouseout=function(){
+                  this.style.display='block';
+              }  
+           }
+          
+          
+           </script>
+</body>
+</html>
