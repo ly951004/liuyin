@@ -28,37 +28,26 @@ export default {
       pictureText: '宣传图尺寸'
     }
   },
-  porps:{
-
+  porps: {
   },
   computed: {
-    
   },
-  component:{
-
+  component: {
   },
-  beforeCreate() {
-    
+  beforeCreate () {
   },
-  created() {
-    
+  created () {
   },
-  beforeMount() {
-    
+  beforeMount () {
   },
-  mounted() {
-    
+  mounted () {
   },
-
-  updated() {
-    
+  updated () {
   },
-  destroyed() {
-    
+  destroyed () {
   },
   methods: {
-    
-  },
+  }
 }
 </script>
 <style lang="scss" scoped>

@@ -5,6 +5,10 @@ import ClearMoney from './views/ClearMoney.vue'
 import Earnings from './views/Earnings.vue'
 import Newname from './views/Newname.vue'
 import Mygroup from './views/Mygroup.vue'
+import Team from './views/Team.vue'
+import Myteam from './views/Myteam.vue'
+import Winnerslist from './views/Winnerslist.vue'
+import Tirger from './views/Tirger.vue'
 Vue.use(Router)
 export default new Router({
   mode: 'history',
@@ -34,6 +38,26 @@ export default new Router({
       path: '/Mygroup',
       name: 'Mygroup',
       component: Mygroup
+    },
+    {
+      path: '/Team',
+      name: 'Team',
+      component: Team
+    },
+    {
+      path: '/Myteam',
+      name: 'Myteam',
+      component: Myteam
+    },
+    {
+      path: '/Winnerslist',
+      name: 'Winnerslist',
+      component: Winnerslist
+    },
+    {
+      path: '/Tirger',
+      name: 'Tirger',
+      component: Tirger
     },
     {
       path: '/about',
