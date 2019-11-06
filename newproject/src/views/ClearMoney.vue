@@ -1,10 +1,8 @@
 <template>
     <div>
-         <div class="list">
-                    <img src="../assets/next6.png" alt="">
-                    <p class="pass">可用资产明细</p>
-                </div>
-                <div class="box">
+           <img src="../assets/nextcopy.png" alt="" class="dataup_img">
+           <p class="pass">可用资产明细</p>
+                <div class="box_data">
                     <p class="pass_box">可用
                     <span class="start">(ATOMU)</span>
                     </p>
@@ -53,28 +51,23 @@ export default {
 <style lang="scss" scoped>
 body{
     background: #F7F9FF;
-}
-.list{
-    width: 100%;
-    height: 0.47rem;
-    margin-top:0.99rem  ;
-    margin: 0.99rem auto;
     position: relative;
-    margin-bottom: 0;
 }
-.list img{
-    position: absolute;
+.dataup_img{
+    width:0.25rem;
+    height:0.47rem;
+    position:absolute;
+    top:0.99rem;
     left:0.56rem;
-
 }
 .pass{
-    line-height: 0.47rem;
+    padding-top:0.85rem;
     text-align: center;
     font-size: 0.48rem;
     color:#1F1F1F;
     font-weight: bold;
  }
-.box{
+.box_data{
     width:9.33rem;
     height:3.84rem;
     background:#5193F8;
@@ -142,20 +135,20 @@ body{
     font-size:0.48rem ;
 }
 .list_up{
-    margin-top:0.27rem;
-    margin-left:0.65rem;
+    padding-top: 0.14rem;
+    padding-left: 0.65rem;
+    padding-bottom: 0.27rem;
     font-size: 0.4rem;
-    font-weight: bold;
     color: #868789;
 }
 .node {
-    width:9.25rem ;
+    width: 9.33rem;
     height: 1.6rem;
-    background: #fff;
-    border-radius: 0.11rem;
-    margin-bottom: 0;
-    margin: 0.28rem auto;
+    background: #FFF;
+    margin: 0 auto;
+    margin-bottom: 0.13rem;
     position: relative;
+    border-radius: 0.13rem;
 }
 .code{
     float: left;
@@ -169,7 +162,6 @@ body{
     top: 0.92rem;
     left:0.33rem ;
     font-size:0.32rem ;
-    font-weight: normal;
     color:#878686 ;
     position: absolute;
 }

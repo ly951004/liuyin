@@ -4,42 +4,42 @@
         <img src="../assets/nextcopy.png" alt="" class="fox">
         <p class="list_fox">我的社群</p>
     </header>
-    <div class="app">
+    <div class="app_add">
         <div class="high">
         </div>
-         <p class="box">冬去春来</p>
+         <p class="box-bloge">冬去春来</p>
          <img src="../assets/super.png" alt="" class="star">
          <span class="old">13389642649</span>
          <p class="young">团队人数<em class="art">13</em>人</p>
     </div>
-    <div class="app">
+    <div class="app_add">
             <div class="high">
             </div>
-             <p class="box">冬去春来</p>
+             <p class="box-bloge">冬去春来</p>
              <img src="../assets/pic-vip2.png" alt="" class="star">
              <span class="old">13389642649</span>
              <p class="young">团队人数<em class="art">13</em>人</p>
         </div>
-        <div class="app">
+        <div class="app_add">
                 <div class="high">
                 </div>
-                 <p class="box">冬去春来</p>
+                 <p class="box-bloge">冬去春来</p>
                  <img src="../assets/pic-vip3.png" alt="" class="star">
                  <span class="old">13389642649</span>
                  <p class="young">团队人数<em class="art">13</em>人</p>
             </div>
-            <div class="app">
+            <div class="app_add">
                     <div class="high">
                     </div>
-                     <p class="box">冬去春来</p>
+                     <p class="box-bloge">冬去春来</p>
                      <img src="../assets/pic-vip4.png" alt="" class="star">
                      <span class="old">13389642649</span>
                      <p class="young">团队人数<em class="art">13</em>人</p>
                 </div>
-                <div class="app">
+                <div class="app_add">
                         <div class="high">
                         </div>
-                         <p class="box ">冬去春来</p>
+                         <p class="box-bloge ">冬去春来</p>
                          <span class="old">13389642649</span>
                          <p class="young">团队人数<em class="art">13</em>人</p>
                     </div>
@@ -77,7 +77,7 @@ header{
     font-weight: bold;
     padding-top: 0.75rem;
 }
-.app{
+.app_add{
     width:9.47rem ;
     height: 2.83rem;
     background:#fff ;
@@ -93,7 +93,7 @@ header{
     margin-top: 0.32rem;
     margin-left: 0.33rem;
 }
-.box{
+.box-bloge{
   font-size: 0.43rem;
   color: #262626;
   font-weight: bold;

@@ -14,9 +14,12 @@ p{
 body{
     margin: 0;
 }
-h1{
+ul{
     margin: 0;
     padding: 0;
+}
+li{
+  list-style: none;
 }
 em{
     font-style: normal;
@@ -29,6 +32,6 @@ button{
     padding: 0;
 }
 a{
-     text-decoration: none;
+    text-decoration: none;
 }
 </style>

@@ -9,6 +9,14 @@ import Team from './views/Team.vue'
 import Myteam from './views/Myteam.vue'
 import Winnerslist from './views/Winnerslist.vue'
 import Tirger from './views/Tirger.vue'
+import SuperRedbag from './views/SuperRedbag.vue'
+import Viptimeup from './views/Viptimeup.vue'
+import Luckredbag from './views/Luckredbag.vue'
+import Group from './views/Group.vue'
+import hello from './views/hello.vue'
+import Like from './views/Like.vue'
+import Try from './views/Try.vue'
+import Hi from './views/Hi.vue'
 Vue.use(Router)
 export default new Router({
   mode: 'history',
@@ -20,9 +28,34 @@ export default new Router({
       component: Add
     },
     {
-      path: '/ClearMoney',
-      name: 'ClearMoney',
-      component: ClearMoney
+      path: '/Try',
+      name: 'Try',
+      component: Try
+    },
+    {
+      path: '/Hi',
+      name: 'Hi',
+      component: Hi
+    },
+    {
+      path: '/Like',
+      name: 'Like',
+      component: Like
+    },
+    {
+      path: '/Group',
+      name: 'Group',
+      component: Group
+    },
+    {
+      path: '/hello',
+      name: 'hello',
+      component: hello
+    },
+    {
+      path: '/Tirger',
+      name: 'Tirger',
+      component: Tirger
     },
     {
       path: '/Earnings',
@@ -55,9 +88,24 @@ export default new Router({
       component: Winnerslist
     },
     {
-      path: '/Tirger',
-      name: 'Tirger',
-      component: Tirger
+      path: '/ClearMoney',
+      name: 'ClearMoney',
+      component: ClearMoney
+    },
+    {
+      path: '/SuperRedbag ',
+      name: 'SuperRedbag ',
+      component: SuperRedbag
+    },
+    {
+      path: '/Viptimeup ',
+      name: 'Viptimeup ',
+      component: Viptimeup
+    },
+    {
+      path: '/Luckredbag',
+      name: 'Luckredbag',
+      component: Luckredbag
     },
     {
       path: '/about',

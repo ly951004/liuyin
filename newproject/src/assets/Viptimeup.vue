@@ -1,10 +1,10 @@
 <template>
     <div>
-      <header>
-           <img src="../assets/next6.png" alt="" class="img_add">
+          <header>
+           <img src="../assets/next6.png" alt="" class="img_add"> 
            <p class="app">
-               社区总资产 (ATOMU)
-           </p>
+               社区总资产 (ATOMU)  
+           </p> 
            <span class="app_cont">49,228.20</span>
            <div class="add">
                <p class="add_out"> 社区人数 (人)</p>
@@ -20,12 +20,12 @@
                 <img src="../assets/logo-left.png" alt="" class="img_app">
                 <p class="road">我的社群</p>
                 <img src="../assets/logo-right.png" alt="" class="img_list">
-                <p class="date">社群收益</p>
+                <p class="date">社群收益</p>  
             </div>
             <div class="get">
                   <p class="david_ore">社群成员</p>
-                  <img src="../assets/pic-vip3.png" alt="" class="david_host">
-                  <button class="david_rest">加入社群</button>
+                  <img src="../assets/super.png" alt="" class="david_host">
+                  <p class="david_rext">会员即将到期，请立即续费！<a href="" class="obj">></a></p>
                   <div class="date_hred"></div>
                   <div class="date_hred">
                         <div class="okin"></div>
@@ -52,14 +52,26 @@
             </div>
            <img src="../assets/bgd2x.png" alt="" class="title">
         </footer>
+        <div class="cover"></div>
+        <div class="root">
+            <div class="make">
+                 <h1 class="make_wolf">尊贵的会员即将到期</h1>
+            </div>
+             <p class="add_up">您的奖励已领取完成，会员已失效!</p> 
+             <p class="add_up" style="margin-top: 0"> 今日有<span class="clear">12563556522</span>ATOUM未领取到，恢复身份即可继续获取社群奖励.</p>
+             <p class="add_up">否则2天后即将永久失效.</p> 
+             <img src="../assets/pic-vip.png" alt="" class="tesk">
+             <button class="dark">立即续费</button>
+            </div>
+            <img src="../assets/pic_wrong.png" alt="" class="wrong">
     </div>
 </template>
 <script>
-export default {
+export default { 
 }
 </script>
 <style lang="scss" scoped>
-    body{
+ body{
     background: #F4F6FF;
 }
 header{
@@ -92,7 +104,7 @@ header{
     height: 0.97rem;
     float: left;
     padding-left: 0.68rem;
-    padding-top: 0.41rem;
+    padding-top: 0.41rem; 
 }
 .add_out{
     font-size:0.32rem ;
@@ -101,7 +113,7 @@ header{
 .add_art{
     display: block;
     font-size: 0.32rem;
-    color: #fff;
+    color: #fff; 
 }
 .add_host{
     width: 2.77rem;
@@ -138,7 +150,7 @@ header{
     color: #252525;
     line-height: 1.27rem;
     padding-right: 1.68rem;
-    float:right;
+    float:right; 
 }
 .get{
     width: 100%;
@@ -158,38 +170,41 @@ header{
     position: absolute;
     top:0.4rem;
     left:0.51rem;
-}
+}  
 header{
     width: 100%;
     height: 5.53rem;
+}
+.title{
+    width:100% ;
+    height:2.75rem ;
 }
 .david_ore{
     float: left;
     font-size: 0.4rem;
     color:#101010 ;
-    padding-top:0.51rem ;
+    line-height: 1.29rem;;
     padding-left: 0.68rem;
 }
 .david_host{
     float: left;
-    padding-top:0.63rem ;
+    padding-top:0.52rem ;
     padding-left: 0.05rem;
     width: 0.81rem;
     height: 0.33rem;
+  
 }
-.david_rest{
+.david_rext{
     float: right;
-    width: 2.16rem;
-    height:0.73rem ;
-    border-radius: 0.37rem;
-    background:#FD8A03;
-    border: none;
-    font-size:0.37rem;
-    color:#FDFEFF;
-    margin-top:0.27rem ;
-    margin-right: 0.47rem;
-    outline: none;
+    line-height: 1.29rem;
+    margin-right:0.45rem ;
+    font-size: 0.32rem;
+    color:#FD314D ;
 }
+.obj{
+    color:#FD314D ;
+}
+
 .date_hred{
     width: 9.49rem;
     height: 1.29rem;
@@ -218,6 +233,7 @@ header{
     line-height: 1.29rem;
     color: #2E2F30;
     padding-left: 0.69rem;
+    
 }
 .assdle{
     width:1.17rem ;
@@ -229,7 +245,7 @@ header{
     font-size: 0.23rem;
     float: left;
     margin-top: 0.37rem;
-    margin-left: 0.71rem;
+    margin-left: 0.71rem; 
     outline: none;
 }
 .assdle_out{
@@ -243,6 +259,81 @@ header{
     float: right;
     margin-top: 0.37rem;
     margin-right: 0.47rem;
-    outline: none;
+    outline: none; 
 }
+.cover{
+    position: fixed;
+    background: #000;
+    opacity: 0.6;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    top:0;
+    left: 0; 
+}
+.root{
+    position: fixed;
+    top: 3.85rem;
+    left: 2.04rem;
+    z-index: 2;
+    width: 6rem;
+    height: 7.73rem;
+    background-image: url('../image/bgd-pic2x.png');
+    background-size: 100%;
+ 
+}
+.make{
+    width: 100%;
+    height: 0.52rem;
+    margin-top:0.36rem
+}
+.make_wolf{
+    font-size:0.53rem ;
+     color: #FFF;
+     text-align: center;
+}
+.root_make{
+    width:4.59rem ;
+    height:  1.56rem;
+    margin: 0.24rem auto;
+}
+.dark{
+    width: 3.73rem;
+    height:1.07rem ;
+    background: #186DFE;
+    border-radius:0.54rem;
+    color: #fff;
+    font-size: 0.48rem;
+    border: none;
+    outline: none;
+    display: block;
+    margin:0  auto 0.48rem auto;
+    
+   
+   
+}
+.add_up{
+    font-size: 0.27rem;
+    color: #fff;
+    margin-top: 0.37rem;
+    margin-left: 0.88rem;
+    
+}
+.tesk{
+   margin-top: 0.6rem;
+   margin-left: 2.11rem;
+    width:1.67rem;
+    height: 1.53rem;
+}
+.clear{
+    color: #FF5858;
+}
+.wrong{
+    position: fixed;
+    bottom: 1.49rem;
+    left:4.85rem;
+    z-index: 2;
+    width:0.55rem ;
+    height: 0.55rem;
+}  
 </style>

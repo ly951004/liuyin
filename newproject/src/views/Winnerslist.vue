@@ -5,7 +5,7 @@
        <p class="header_text">龙湖奖励榜</p>
    </header>
    <section>
-       <div class="box">
+       <div class="box_string">
         <p class="host">第0704期奖池</p>
         <ul class="list ">
             <li>6</li><li>9</li><li>6</li><li>4</li><li>9</li><li>5</li><li>0</li><li>0</li>
@@ -72,7 +72,7 @@ export default {
     font-size:0.48rem ;
     color:#fff ;
 }
-.box{
+.box_string{
     width: 8.16rem;
     height: 10.25rem;
     margin: 0.28rem auto ;
